@@ -11,11 +11,14 @@
 
 ## 3. 設置する
 1. README の「Deploy to Cloudflare」ボタンを押す。
-2. Cloudflare にログインし、GitHub とつなぐ（許可の画面では、作られるリポジトリへのアクセスを許可してください）。
-3. 設定画面：
-   - **Worker の名前**：そのままで大丈夫です（`narabooth`）。同じアカウントに2つ目を作る時は別の名前にしてください。
+2. Cloudflare にログインする。
+3. 設定画面（上から順に）：
+   - **Git account**：「Select...」から自分の GitHub を選ぶ。出てこない時は GitHub とつなぐ表示を押し、ログインして許可する（作られるリポジトリへのアクセスを許可してください）。
+   - **Create private Git repository**：チェックを入れるのがおすすめ（あなたの GitHub に作られるコピーが非公開になります）。
+   - **Project name**：そのままで大丈夫です（`narabooth`）。同じアカウントに2つ目を作る時は別の名前にしてください。
    - **SETUP_TOKEN**：2 の合言葉を入れる。
-4. 「Create and deploy」を押し、数分待つ。完了するとアドレス（`https://narabooth.〜.workers.dev`）が表示されます。
+   - **Build command / Deploy command / Preview command**：そのまま。
+4. 「**Deploy**」を押し、数分待つ。完了するとアドレス（`https://narabooth.〜.workers.dev`）が表示されます。
    - アドレスが開けない時は、Cloudflare の Worker の画面の「Domains」（または Settings の Domains & Routes）で、`workers.dev` のスイッチがオンになっているか確認してください。
 
 ## 4. 初期設定
