@@ -39,7 +39,8 @@ Cloudflare（クラウドフレア）は、インターネット上に**あな�
    - **Create private Git repository**：チェックを入れるのがおすすめです（コピーが非公開になります）。
    - **SETUP_TOKEN**：1 の合言葉を入れます。
    - ほかの欄（Project name、Build command、Deploy command など）は**そのまま**で大丈夫です。
-5. 「**Deploy**」を押して、数分待ちます。完了すると `https://narabooth.〜.workers.dev` のようなアドレスが表示されます。
+5. 「**Deploy**」を押して、数分待ちます。「Build」の画面の左上に緑のチェック ✔ が付けば完了です（この画面にはアドレスは出ません）。
+   - **アドレスの見つけ方**：画面上のタブ（Overview・Metrics・Deployments…）を横にスワイプして「**Domains**」を押します。「Production」の行の `narabooth.〇〇.workers.dev` があなたのイベントのアドレスです（右のスイッチが灰色なら押して青に）。
 6. そのアドレスの最後に `/setup.html` を付けて開き（ならブースのアプリでは「主催者の方へ」の手順3）、合言葉・イベント名・管理者の役割名とパスワードを入れて初期設定をします。
 7. `https://〜.workers.dev/staff/` から管理者でログインし、「管理」タブの **📖 使い方（説明書）** に沿って準備します。
 

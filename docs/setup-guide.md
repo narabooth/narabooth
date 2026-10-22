@@ -18,8 +18,9 @@
    - **Project name**：そのままで大丈夫です（`narabooth`）。同じアカウントに2つ目を作る時は別の名前にしてください。
    - **SETUP_TOKEN**：2 の合言葉を入れる。
    - **Build command / Deploy command / Preview command**：そのまま。
-4. 「**Deploy**」を押し、数分待つ。完了するとアドレス（`https://narabooth.〜.workers.dev`）が表示されます。
-   - アドレスが開けない時は、Cloudflare の Worker の画面の「Domains」（または Settings の Domains & Routes）で、`workers.dev` のスイッチがオンになっているか確認してください。
+4. 「**Deploy**」を押し、数分待つ。「Build」の画面の左上に緑のチェック ✔ が付けば完了です。**この画面にはアドレスは出ません。**
+5. **アドレスの見つけ方**：画面上のタブ（Overview・Metrics・Deployments…）を横にスワイプして「**Domains**」を押す。「Production」の行に出ている `narabooth.〇〇.workers.dev` があなたのイベントのアドレスです（〇〇はアカウントごとに違います）。
+   - 右のスイッチが灰色（オフ）の時は、押して青（オン）にしてください。オフのままだとアドレスを開けません。
 
 ## 4. 初期設定
 1. `https://〈あなたのアドレス〉/setup.html` を開く。
