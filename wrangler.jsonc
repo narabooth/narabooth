@@ -16,7 +16,6 @@
     "bindings": [{ "name": "EVENT", "class_name": "EventDO" }]
   },
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["EventDO"] }],
-  "vars": { "ENV_LABEL": "" },
   "observability": { "enabled": false },
   "workers_dev": true,
   "preview_urls": false,
